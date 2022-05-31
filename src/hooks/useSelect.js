@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 
 export const useSelect = (stateInitial, options) => {
-    console.log(options);
     const [state, setState] = useState(stateInitial);
     const SelectNews = () => (
         <select
